@@ -8,7 +8,7 @@ def create_app(app_name='MYAPPNAME'):
 
 if __name__ == '__main__':
     app = create_app()
-    app.run(debug=True, host='0.0.0.0', port=int(os.environ.get('PORT', 8080))) # nosemgrep
+    app.run(debug=True, host='0.0.0.0', port=int(os.environ.get('PORT', 8080)))  # nosem
 
 else:
     pass
